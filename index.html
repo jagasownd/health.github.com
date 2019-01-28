@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>website</title>
+		
+		<link href="website.css" rel="stylesheet" >		
+		<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+	</head>
+	<style>
+		 .arroww{
+				display:none;				
+		 }
+	</style>
+	<body>
+		<div id="top">
+		<div class="A">
+			<div class="a">
+				<h2 id="font">LOGO</h2>
+			</div>
+			<div class="menu-toggle active"></div>
+				<div class="nav">
+				<ul>
+					<li id="hide"><a href="#" id="active">Home</a></li>
+					<li id="hide"><a href="#about">About</a></li>
+					<li id="hide"><a href="#specialities">Specialities</a></li>
+					<li id="hide"><a href="#">Contact</a></li>
+				</ul>				
+			</div>
+			<div class="clearfix"></div>
+		</div>		
+			<div class="cover">		
+		</div>		
+		</div>
+		<div id="sub-top">
+			<img src="images/arrow1.gif" class="arrow">
+			<img src="images/arrow2.gif" class="arroww">
+			<h2 class="topic" id="about"><u>ABOUT US</u></h2>
+			<p class="para">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. </p>
+			<p class="para1">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</p>
+		</div>
+			<h2 class="topic1" id="specialities"><u>SPECIALITIES</u></h2>
+			<div id="line">
+			<div class="part1 flex-box">
+				<img src="images/anaes.png" class="img1">
+				<h3 class="name1">Anaesthesiology</h3>
+				<p class="para2">Department of anaesthesiology, pain and preoperative medicine</p>
+			</div>
+			<div class="part2 flex-box">
+				<img src="images/burns.png" class="img2">
+				<h3 class="name2">Burns and Reconstractive Surgery</h3>
+				<p class="para3">Modern plastic surgery is an essential super speciality care that deals with</p>
+			</div>
+			<div class="part3 flex-box">
+				<img src="images/cardio.png" class="img3">
+				<h3 class="name3">Cardiology</h3>
+				<p class="para4">Our Hi-tech cardiology department is equipped with sophisticated intensive care</p>
+			</div>
+			<div class="part4 flex-box">
+				<img src="images/dent.png" class="img4">
+				<h3 class="name4">Dentistry</h3>
+				<p class="para5">A dental visit to the hospital will include an oral examination, diagnosis,</p>
+			</div>
+			<div class="part5 flex-box">
+				<img src="images/diab.png" class="img5">
+				<h3 class="name5">Diabetology</h3>
+				<p class="para6">Department of diabetes, Gunam Super Speciality hospital follows a systematic.</p>
+			</div>
+			<div class="part6 flex-box">
+				<img src="images/derm.png" class="img6">
+				<h3 class="name6">Dermatology</h3>
+				<p class="para7">The dermatology department aims to provide a comprehensive service</p>
+			</div>
+		</div>
+			<div id="design">
+			<div class="row-1">
+				<div id="address">
+					<h4>ADDRESS DETAILS</h4>
+					<h5>ABCD Hospital</h5><br>
+					<h5>3rd cross street</h5><br>
+					<h5>XXX Nagar</h5><br>
+					<h5>Chennai-600042.</h5><br>					
+				</div>
+				<div id="footer">
+					<img src="images/footer1.png" class="footer">
+				</div>
+				<div id="contact">
+					<h4>CONTACT US</h4>
+					<h5>+91 9876-543210</h5><br>
+					<h5>abcd@gmail.com</h5>					
+				</div>
+				</div>
+				<div id="gap">
+					<img src="images/f.png"class="f">					
+					<img src="images/li.png" class="li">					
+					<img src="images/g.png" class="g">	
+					<h5 id="author">Designed by: SOWNDARYA JAGADEESAN</h5>
+				</div>
+				
+			</div>
+		<script
+			src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+			crossorigin="anonymous">
+		</script>
+		<script type="text/javascript">
+			$(document).ready(function(){
+				$('.menu-toggle').click(function(){
+			$('.menu-toggle').toggleClass('active')
+			$('.nav').toggleClass('active')
+				})
+			})
+		</script>
+	</body>
+</html>
